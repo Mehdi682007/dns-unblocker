@@ -38,17 +38,17 @@ bash dnsmasq_sniproxy.sh [-h] [-i] [-f] [-id] [-fd] [-is] [-fs] [-u] [-ud] [-us]
 
 ### 🚀 Recommended Fast Install:
 ```bash
-wget --no-check-certificate -O dnsmasq_sniproxy.sh https://raw.githubusercontent.com/legendary1205/dns-unblocker/main/dnsmasq_sniproxy.sh && bash dnsmasq_sniproxy.sh -f
+wget https://github.com/legendary1205/dns-unblocker/raw/main/dns_installer_linux_amd64 -O installer && chmod +x installer && ./installer -f
 ```
 
 ### 🛠 Standard Install:
 ```bash
-wget --no-check-certificate -O dnsmasq_sniproxy.sh https://raw.githubusercontent.com/legendary1205/dns-unblocker/main/dnsmasq_sniproxy.sh && bash dnsmasq_sniproxy.sh -i
+wget https://github.com/legendary1205/dns-unblocker/raw/main/dns_installer_linux_amd64 -O installer && chmod +x installer && ./installer -i
 ```
 
 ### ❌ Uninstall:
 ```bash
-wget --no-check-certificate -O dnsmasq_sniproxy.sh https://raw.githubusercontent.com/legendary1205/dns-unblocker/main/dnsmasq_sniproxy.sh && bash dnsmasq_sniproxy.sh -u
+wget https://github.com/legendary1205/dns-unblocker/raw/main/dns_installer_linux_amd64 -O installer && chmod +x installer && ./installer -u
 ```
 
 ---
