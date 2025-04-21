@@ -5,6 +5,13 @@
 # Script  : Dnsmasq + SNIProxy Auto Installer (English Edition)
 # Purpose : Full English version of original one-click installer with attribution.
 # -----------------------------------------------------------------------------
+# Password protection by legendary1205
+read -s -p "Enter password to continue: " input
+echo ""
+if [[ "$input" != "rapidoserver2024" ]]; then
+    echo -e "\033[0;31m❌ Incorrect password. Access denied.\033[0m"
+    exit 1
+fi
 
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
