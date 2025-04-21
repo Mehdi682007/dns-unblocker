@@ -289,7 +289,7 @@ install_dnsmasq(){
     fi
     [ ! -f /usr/sbin/dnsmasq ] && echo -e "[${red}Error${plain}] There was a problem installing dnsmasq, please check." && exit 1
     download /etc/dnsmasq.d/custom_netflix.conf https://raw.githubusercontent.com/myxuchangbin/dnsmasq_sniproxy_install/master/dnsmasq.conf
-    download /tmp/proxy-domains.txt https://raw.githubusercontent.com/myxuchangbin/dnsmasq_sniproxy_install/master/proxy-domains.txt
+    download /tmp/proxy-domains.txt https://raw.githubusercontent.com/legendary1205/dns-unblocker/refs/heads/main/proxy-domains.txt
     for domain in $(cat /tmp/proxy-domains.txt); do
         printf "address=/${domain}/${publicip}\n"\
         | tee -a /etc/dnsmasq.d/custom_netflix.conf > /dev/null 2>&1
@@ -348,7 +348,7 @@ install_sniproxy(){
     if check_sys packageManager yum; then
         if [[ ${fastmode} = "1" ]]; then
             if [[ ${bit} = "x86_64" ]]; then
-                download /tmp/sniproxy-0.6.1-1.el8.x86_64.rpm https://github.com/myxuchangbin/dnsmasq_sniproxy_install/raw/master/sniproxy/sniproxy-0.6.1-1.el8.x86_64.rpm
+                download /tmp/sniproxy-0.6.1-1.el8.x86_64.rpm https://github.com/legendary1205/dns_unblocker/raw/main/sniproxy/sniproxy-0.6.1-1.el8.x86_64.rpm
                 error_detect_depends "yum -y install /tmp/sniproxy-0.6.1-1.el8.x86_64.rpm"
                 rm -f /tmp/sniproxy-0.6.1-1.el8.x86_64.rpm
             else
@@ -367,7 +367,7 @@ install_sniproxy(){
             download /etc/init.d/sniproxy https://raw.githubusercontent.com/dlundquist/sniproxy/master/redhat/sniproxy.init && chmod +x /etc/init.d/sniproxy
             [ ! -f /etc/init.d/sniproxy ] && echo -e "[${red}Error${plain}] There was a problem downloading the Sniproxy startup file, please check." && exit 1
         else
-            download /etc/systemd/system/sniproxy.service https://raw.githubusercontent.com/myxuchangbin/dnsmasq_sniproxy_install/master/sniproxy.service
+            download /etc/systemd/system/sniproxy.service https://raw.githubusercontent.com/legendary1205/dns-unblocker/refs/heads/main/sniproxy.service
             systemctl daemon-reload
             [ ! -f /etc/systemd/system/sniproxy.service ] && echo -e "[${red}Error${plain}] There was a problem downloading the Sniproxy startup file, please check." && exit 1
         fi
@@ -383,13 +383,13 @@ install_sniproxy(){
         else
             env NAME="sniproxy" DEBFULLNAME="sniproxy" DEBEMAIL="sniproxy@example.com" EMAIL="sniproxy@example.com" ./autogen.sh && ./configure --prefix=/usr && make && make install
         fi  
-        download /etc/systemd/system/sniproxy.service https://raw.githubusercontent.com/myxuchangbin/dnsmasq_sniproxy_install/master/sniproxy.service
+        download /etc/systemd/system/sniproxy.service https://raw.githubusercontent.com/legendary1205/dns-unblocker/refs/heads/main/sniproxy.service
         systemctl daemon-reload
         [ ! -f /etc/systemd/system/sniproxy.service ] && echo -e "[${red}Error${plain}] There was a problem downloading the Sniproxy startup file, please check." && exit 1
     fi
     [ ! -f /usr/sbin/sniproxy ] && echo -e "[${red}Error${plain}] There was a problem installing Sniproxy, please check." && exit 1
-    download /etc/sniproxy.conf https://raw.githubusercontent.com/myxuchangbin/dnsmasq_sniproxy_install/master/sniproxy.conf
-    download /tmp/sniproxy-domains.txt https://raw.githubusercontent.com/myxuchangbin/dnsmasq_sniproxy_install/master/proxy-domains.txt
+    download /etc/sniproxy.conf https://raw.githubusercontent.com/legendary1205/dns-unblocker/refs/heads/main/sniproxy.conf
+    download /tmp/sniproxy-domains.txt https://raw.githubusercontent.com/legendary1205/dns-unblocker/refs/heads/main/proxy-domains.txt
     sed -i -e 's/\./\\\./g' -e 's/^/    \.\*/' -e 's/$/\$ \*/' /tmp/sniproxy-domains.txt || (echo -e "[${red}Error:${plain}] Failed to configuration sniproxy." && exit 1)
     sed -i '/table {/r /tmp/sniproxy-domains.txt' /etc/sniproxy.conf || (echo -e "[${red}Error:${plain}] Failed to configuration sniproxy." && exit 1)
     if [ ! -e /var/log/sniproxy ]; then
