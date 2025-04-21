@@ -117,14 +117,14 @@ For security reasons, avoid exposing the server’s public IP and apply firewall
   `/etc/systemd/resolved.conf` and change:
   ```ini
   [Resolve]
-DNS=8.8.8.8 1.1.1.1 
-#FallbackDNS=
-#Domains=
-#LLMNR=no
-#MulticastDNS=no
-#DNSSEC=no
-#Cache=yes
-DNSStubListener=no  
+  DNS=8.8.8.8 1.1.1.1 
+  #FallbackDNS=
+  #Domains=
+  #LLMNR=no
+  #MulticastDNS=no
+  #DNSSEC=no
+  #Cache=yes
+  DNSStubListener=no  
   ```
 
   Then run:
