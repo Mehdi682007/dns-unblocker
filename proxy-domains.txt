@@ -1,3 +1,16 @@
+domain-needed
+bogus-priv
+no-resolv
+no-poll
+all-servers
+server=8.8.8.8
+server=1.1.1.1
+server=208.67.222.222
+server=4.2.2.1
+port=53
+cache-size=2048
+local-ttl=300
+interface=*
 akadns.net
 akam.net
 akamai.com
@@ -17,18 +30,10 @@ level3.net
 llnwd.net
 edgecastcdn.net
 cloudfront.net
-netflix.com
-netflix.net
-nflximg.com
-nflximg.net
-nflxvideo.net
-nflxso.net
-nflxext.com
 hulu.com
 huluim.com
 hbo.com
 hbonow.com
-hbomax.com
 hbomaxcdn.com
 hboasia.com
 hbogoasia.com
@@ -137,4 +142,770 @@ primevideo.info
 primevideo.org
 primevideo.tv
 pv-cdn.net
+chatgpt.com
+firebase.google.com
 
+accounts.grpc.ea.com
+
+### NEW
+accounts.ea.com
+utas.prd.s5.prd.futc-ext.gcp.ea.com
+playstation.net
+
+#### XBOX LOGIN
+
+device.auth.xboxlive.com
+title.auth.xboxlive.com
+editorial.xboxlive.com
+xkms.xboxlive.com
+cert.mgt.xboxlive.com
+www.xboxab.com
+title.auth.xboxlive.com
+
+atm-settingsfe-prod-geo2.trafficmanager.net
+settings-prod-weu-2.westeurope.cloudapp.azure.com
+settings-prod-neu-1.northeurope.cloudapp.azure.com
+settings-prod-neu-2.northeurope.cloudapp.azure.com
+settings-prod-neu-3.northeurope.cloudapp.azure.com
+
+titlehub.xboxlive.com
+sessiondirectory.xboxlive.com
+clubhub.xboxlive.com
+store-images.s-microsoft.com
+activityhub.xboxlive.com
+
+###### Call Of ###############
+assets.delivery.activision.com
+cer-xbsx-loginservice.prod.demonware.net
+
+multiplayeractivity.xboxlive.com
+objectstore-cloud-prod-cer.egcp.demonware.net
+xblmessaging.xboxlive.com
+rta.xboxlive.com
+achievements.xboxlive.com
+userstats.xboxlive.com
+title.auth.xboxlive.com
+profile.xboxlive.com
+jup-xbsx-loginservice.prod.demonware.net
+firebase.google.com
+
+
+######## EA PC ########
+
+
+ratt.juno.ea.com
+origin-a.akamaihd.net
+pin-river.data.ea.com
+Gcs.ea.com
+service-aggregation-layer.juno.ea.com
+autopatch.juno.ea.com
+arc.msn.com
+pin-em.data.ea.com
+eafc25.service.easports.com
+eafc25.content.easports.com
+freeform-river.data.ea.com
+api.k.social.ea.com
+collector.errors.ea.com
+fcas.prd.s5.prd.futc-ext.gcp.ea.com
+update.layer.ea.com
+gateway.grpc.ea.com
+friends.social.ea.com
+fifa15.content.easports.com
+eaassets-a.akamaihd.net
+eafc25.content.easports.com
+
+##### Pubg Mobile ####
+
+ig-us-sdkapi.igamecj.com
+api.helpshift.com
+cloudctrl.igamecj.com
+gateway.instagram.com
+googleads.g.doubleclick.net
+google-analytics.com
+www.googleadservices.com
+android.crashsight.wetest.net
+clients4.google.com
+k.gjacky.com
+cloud.vmp.onezapp.com
+dl.listdl.com
+app.adjust.com
+gvoice-config.igamecj.com
+intlsdk.igamecj.com
+api.club.gpubgm.com
+#meemo
+broker-1314297.vasdgame.com
+pubgmpdrcdn.amsoveasea.com
+
+### PUBG PC ###
+
+tamaegis.com
+halo-components.cdn-go.cn
+webapp.gameloop.com
+sy.guanjia.qq.com
+beacon.cdn.qq.com
+img.gameloop.com
+aegis.qq.com
+conf.syzs.qq.com
+snowflake.qq.com
+down.qq.com
+guanjia.qq.com
+yybadaccess.3g.qq.com
+unifiedaccess.gameloop.com
+firebaseinstallations.googleapis.com
+p.guanjia.qq.com
+googleads.g.doubleclick.net
+firebaseremoteconfig.googleapis.com
+connectivitycheck.gstatic.com
+ig-us-sdkapi.igamecj.com
+android.crashsight.wetest.net
+app.adjust.io
+dl.listdl.com
+cloud.vmp.onezapp.com
+ig-us-notice.igamecj.com
+cloudctrl.igamecj.com
+api.helpshift.com
+android.googleapis.com
+pay.igamecj.com
+gvoice-config.igamecj.com
+k.gjacky.com
+intlsdk.igamecj.com
+dl.tomjson.com
+api.club.gpubgm.com
+lh3.googleusercontent.com
+play-fe.googleapis.com
+www.pubgmobile.com
+firebaselogging.googleapis.com
+broker-1314297.vasdgame.com
+
+#### valorant ####
+
+data.riotgames.com
+ekg.riotgames.com
+
+#### Ubisoft ####
+ubi.com
+ubisoft.com
+ubisoft.org
+ubisoftconnect.com
+public-ubiservices.ubi.com
+metrics.live.public.prod.ubiconnect.fleet.ubi.com
+dmx.upc.ubisoft.com
+ctldl.windowsupdate.com
+clientservices.googleapis.com
+
+#### Steam EA ####
+steamcommunity-a.akamaihd.net
+shared.cloudflare.steamstatic.com
+autopatch.juno.ea.com
+update.googleapis.com
+#service-aggregation-layer-subs.juno.ea.com
+p2p-sgp1.discovery.steamserver.net
+swtor.com
+nearpolar.com
+easports.
+eamobile.com
+#EA FC25 Steam
+confluence.ea.com
+statsigapi.net
+desktop-config.juno.ea.com
+pc.ea.com
+pin-river.data.ea.com
+service-aggregation-layer.juno.ea.com
+bam.nr-data.net
+rtm.tnt-ea.com
+ealockbox.akamaized.net
+prodregistryv2.org
+
+
+#spotify 
+
+audio-ak-spotify-com.akamaized.net
+audio4-ak-spotify-com.akamaized.net
+heads-ak-spotify-com.akamaized.net
+heads4-ak-spotify-com.akamaized.net
+spotify.map.fastly.net
+spotify.map.fastlylb.net
+#byspotify.com
+#pscdn.co
+#scdn.co
+#spoti.fi
+#spotify-everywhere.com
+‎#spotify.com
+#spotify.design
+#spotifycdn.com
+#spotifycdn.net
+#spotifycharts.com
+#spotifycodes.com
+#spotifyforbrands.com
+#spotifyjobs.com
+
+# sites 
+
+#check-host.net
+
+
+### twitch ###
+twitch.tv
+ttvnw.net
+twitchcdn.net
+usher.ttvnw.net
+static.twitchcdn.net
+api.twitch.tv
+player.twitch.tv
+id.twitch.tv
+gql.twitch.tv
+api.frankerfacez.com
+7tv.io
+passport.twitch.tv
+edge.ads.twitch.tv
+static-cdn.jtvnw.net
+pubsub-edge.twitch.tv
+cf886aaa31d7.j.cloudfront.hls.ttvnw.net
+euw12.playlist.ttvnw.net
+global.poe.live-video.net
+www.gstatic.com
+sentry.io
+assets.twitch.tv
+video-edge-7d35d8.pdx01.abs.hls.ttvnw.net
+k.twitchcdn.net
+hermes.twitch.tv
+api.betterttv.net
+a.nel.cloudflare.com
+
+### discord ### 
+
+gateway.discord.gg
+discord.com
+updates.discord.com
+latency.discord.media
+status.discord.com
+c-cdg08-6e1e6f92.discord.media
+cdn.discordapp.com
+
+
+### youtube ### 
+#ggpht.cn
+#ggpht.com
+#googlevideo.com
+#wide-youtube.l.google.com
+#withyoutube.com
+#youtu.be
+#youtube-nocookie.com
+#youtube-ui.l.google.com
+#youtube.com
+#youtube.co
+#youtube.co.uk
+#youtube.co.in
+#youtube.co.jp
+#youtube.de
+#youtube.fr
+#youtube.it
+#youtube.ru
+#youtube.es
+#youtube.ca
+#youtube.com.ar
+#yt.be
+#ytimg.com
+#i.ytimg.com
+
+#### YouTube Mobile ####
+#android.clients.google.com
+#clients1.google.com
+#clients3.google.com
+#clients4.google.com
+#clients6.google.com
+#m.youtube.com
+#music.youtube.com
+#youtubekids.com
+#youtubego.co.in
+#youtubego.com
+#youtube.googleapis.com
+#youtubei.googleapis.com
+#youtubeembeddedplayer.googleapis.com
+
+
+#ytimg.com
+#yt3.ggpht.com
+#yt4.ggpht.com
+#yt5.ggpht.com
+#yt6.ggpht.com
+#yt3.googleusercontent.com
+
+
+#video.google.com
+#redirector.googlevideo.com
+#googlevideo.com
+
+#rr1---sn-5hnednsz.googlevideo.com
+#rr2---sn-4g5edndl.googlevideo.com
+#rr2---sn-4g5ednds.googlevideo.com
+#rr2---sn-5hne6nzk.googlevideo.com
+#rr2---sn-5hnekn7l.googlevideo.com
+#rr4---sn-4g5ednld.googlevideo.com
+#rr4---sn-4g5ednse.googlevideo.com
+#rr4---sn-5hne6nzk.googlevideo.com
+#rr5---sn-5hnekn7z.googlevideo.com
+
+
+#googleadservices.com
+#googleads.g.doubleclick.net
+#pagead2.googlesyndication.com
+#tpc.googlesyndication.com
+#adservice.google.com
+
+#youtubemobilesupport.com
+
+
+### telegram ###
+
+#cdn-telegram.org
+#comments.app
+#contest.com
+#fragment.com
+#graph.org
+#quiz.directory
+#t.me
+#tdesktop.com
+#telega.one
+#telegra.ph
+#telegram-cdn.org
+#telegram.dog
+#telegram.me
+#telegram.org
+#telegram.space
+#telesco.pe
+#tg.dev
+#tx.me
+#lb-o4ifc0ww-89nai41bz2wx365y.clb.sg-tencentclb.com
+
+### battel net ###
+us.actual.battle.net
+breaking-news.support.blizzard.com
+blzddist1-a.akamaihd.net
+www.googletagmanager.com
+update.googleapis.com
+
+### rocket leag  ###
+
+rl-cdn.psyonix.com
+api.kws.ol.epicgames.com
+api.epicgames.dev
+ws.rlpp.psynet.gg
+connect.ol.epicgames.com
+graphql.epicgames.com
+social-overlay-launchdarkly-api-prod.ol.epicgames.com
+social-overlay-token-exchange-api-prod.ol.epicgames.com
+sentry.io
+api.rlpp.psynet.gg
+main.app-hash-deploy.cbce.live.on.epicgames.com
+overlay-override-service.cbce.live.on.epicgames.com
+eulatracking-public-service-prod06.ol.epicgames.com
+global-postparty.game-social.epicgames.com
+config.psynet.gg
+datarouter.ol.epicgames.com
+signaling-service-prod.mes1.live.rtcp.on.epicgames.com
+
+### fc26 ###
+
+api.k.social.ea.com
+ext-18-97-200-68.blaze.ea.com
+river.data.ea.com
+eafc26.content.easports.com
+signin.ea.com
+friends.gs.ea.com
+cloudsync.juno.ea.com
+eafc26.service.easports.com
+api.k.social.ea.com
+
+pin-river.data.ea.com
+eafc26.content.easports.com
+eaassets-a.akamaihd.net
+freeform-river.data.ea.com
+utas.prd.s5.prd.futc-ext.gcp.ea.com
+#v20.events.data.microsoft.co
+
+### once human ###
+
+appdump.nie.easebar.com
+dns.update.easebar.com
+h73na.update.easebar.com
+drpf-h73na.proxima.nie.easebar.com
+whoami.nie.easebar.com
+easebar.com
+*.easebar.com
+
+###### Efotbal & clash & FC26 ######
+
+# gateway.icloud.com
+# wps.apple.com
+# bag.itunes.apple.com
+# sandbox.itunes.apple.com
+# inappcheck.itunes.apple.com
+# event-assets.clashroyale.com
+# clashroyale.inbox.supercell.com
+# init.gc.apple.com
+# profile.gc.apple.com
+# friend.gc.apple.com
+# stats.gc.apple.com
+# d3bayo-cdn-settings.appsflyersdk.com
+# sas.pcms.apple.com
+# d3bayo-skadsdk.appsflyersdk.com
+# entitlements.itunes.apple.com
+# d3bayo-launches.appsflyersdk.com
+# ca.iadsdk.apple.com
+# app-analytics-services.com
+# fpinit.itunes.apple.com
+# cstat.cdn-apple.com
+# p10-buy.itunes.apple.com
+# csig.apple.com
+# xp.apple.com
+# services.gfe.nvidia.com
+# captive.apple.com
+# ws.chatgpt.com
+# end4y2-launches.appsflyersdk.com
+# n.clarity.ms
+# cs.dds.microsoft.com
+# nav.smartscreen.microsoft.com
+# bugdnasealcustom.com
+# sanfranciscodietur.com
+# game-assets.clashroyaleapp.com
+# amp-api-edge.apps.apple.com
+# ocsp2.apple.com
+# pd.itunes.apple.com
+# tr.iadsdk.apple.com
+# setup.icloud.com
+# ios.crashsight.wetest.net
+# ig-us-sdkapi.igamecj.com
+# consent.adjust.com
+# cloudctrl.igamecj.com
+# cloud.vmp.onezapp.com
+# ig-us-notice.igamecj.com
+# dl.listdl.com
+# sg.tdatamaster.com
+# k.gjacky.com
+# pay.igamecj.com
+# hwconfig.gcloudcs.com
+# intlsdk.igamecj.com
+# api.club.gpubgm.com
+# broker-1314297.vasdgame.com
+# atm-broker-ws-1314297-sg.vasdgame.com
+# cdn2.pubgameshowtime.com
+# github.com
+# legal.konami.com
+# mobileconfiguration-pa.googleapis.com
+# sdkconfig.intl.xiaomi.com
+# sentry.frostnerd.com
+# chromesyncpasswords-pa.googleapis.com
+# mobile.events.data.microsoft.com
+# firebaseremoteconfigrealtime.googleapis.com
+# ecs.office.com
+# dsadata.intel.com
+# autopatch.juno.ea.com
+# sg.global.market.xiaomi.com
+# g.live.com
+# oneclient.sfx.ms
+# login.live.com
+# self.events.data.microsoft.com
+# storeedgefd.dsx.mp.microsoft.com
+# onedrive.live.com
+# www.applilink.jp
+# pes22-game.cs.konami.net
+# ducte5pbkhc9o.cloudfront.net
+# d1ln4m3c7n87ju.cloudfront.net
+# mon-va.tiktokv.com
+# gpm-mon-va.bytegsdk.com
+# sf-hs-sg.ibytedtos.com
+# rr4---sn-5hne6nzy.gvt1.com
+# authbe.sec.intl.miui.com
+# va-effect.byteoversea.com
+# app.adjust.com
+# ml.config.cdn-aihelp.net
+# p1-config.cdn-aihelp.net
+# cdn.aihelp.net
+# rr8---sn-x2pm-f5fs.gvt1.com
+# tnc16-alisg.isnssdk.com
+# youtubei.googleapis.com
+# i.ytimg.com
+# vthe.net
+# aabrooklyn.com
+# www.foliocraftgym.org
+# zatouchmeisterfloor.com
+# www.pitchakleather.org
+# notifications-pa.googleapis.com
+# dialercallinfolookup-pa.googleapis.com
+# privacy.api.intl.miui.com
+# meetings.googleapis.com
+# people-pa.googleapis.com
+# dns.google
+# mozilla.cloudflare-dns.com
+# o315582.ingest.sentry.io
+# api.usercentrics.eu
+# app.usercentrics.eu
+# aggregator.service.usercentrics.eu
+# beacons.gvt2.com
+# cdn.id.supercell.com
+# www.recaptcha.net
+# clashofclans.inbox.supercell.com
+# consent-api.service.consent.usercentrics.eu
+# inventory.mtech.supercell.com
+# id.supercell.com
+# event-assets.clashofclans.com
+# game-assets.clashofclans.com
+# supercell.com
+# uct.service.usercentrics.eu
+# w3togo-cdn-settings.appsflyersdk.com
+# firebaseinstallations.googleapis.com
+# android.apis.google.com
+# w3togo-conversions.appsflyersdk.com
+# w3togo-attr.appsflyersdk.com
+# gtglobal.intl.miui.com
+# infinitedata-pa.googleapis.com
+# security.id.supercell.com
+# o33249.ingest.sentry.io
+# android.chat.openai.com
+# play-fe.googleapis.com
+# api.revenuecat.com
+# ab.chatgpt.com
+# sdmntprnorthcentralus.oaiusercontent.com
+# play.googleapis.com
+# connectivitycheck.gstatic.com
+# lf-static.tiktokpangle-cdn-us.com
+# pubsub.googleapis.com
+# googleads.g.doubleclick.net
+# chat.openai.com
+# clientservices.googleapis.com
+# memex-pa.googleapis.com
+# firebase-settings.crashlytics.com
+# api16-access-ttp.tiktokpangle.us
+# cdn.oaistatic.com
+# ms.applovin.com
+# lh3.googleusercontent.com
+# cdn.iads.unity3d.com
+# chat.deepseek.com
+# d.applovin.com
+# ms4.applovin.com
+# apmplus.volces.com
+# tab.volces.com
+# o-sdk.mediation.unity3d.com
+# content-autofill.googleapis.com
+# rt.applovin.com
+# cdn-adn-https.mtgglobals.com
+# mssdk-sg-bu.byteoversea.com
+# fp-it.fengkongcloud.com
+# gator.volces.com
+# code.jquery.com
+# gw.mediation.unity3d.com
+# ae.iads.unity3d.com
+# vg-aws-cdn-ssplib-us-east-1b-hb.mtgglobals.com
+# vg-aws-cdn-ssplib-us-east-1a-hb.mtgglobals.com
+# hybird.mtgglobals.com
+# www.google.com
+# download.deepseek.com
+# fonts.googleapis.com
+# safebrowsing.google.com
+# d1om9znyumzhxf.cloudfront.net
+# o-iab-notifications.mediation.unity3d.com
+# clients4.google.com
+# play-lh.googleusercontent.com
+# readaloud.googleapis.com
+# vg-aws-cdn-us-east-1a-hb-bid-feedback.mtgglobals.com
+# o.isx.unity3d.com
+# lamssettings-pa.googleapis.com
+# lf3-data.volccdn.com
+# static.deepseek.com
+# challenges.cloudflare.com
+# fp-it-acc.portal101.cn
+# app-measurement.com
+# google.com
+# vg-aws-ad-track-sdk-us-east-1b.mtgglobals.com
+# o-iab-imp-counters.mediation.unity3d.com
+# vg-aws-ad-mof-sdk-us-east-1b.mtgglobals.com
+# tracking.intl.miui.com
+# firebaseremoteconfig.googleapis.com
+# log-va.bytegsdk.com
+# android.googleapis.com
+# firebaselogging.googleapis.com
+# firebaselogging-pa.googleapis.com
+# games.googleapis.com
+# gameswhitelisted.googleapis.com
+# beacons.gcp.gvt2.com
+# gplog-sg.byteoversea.com
+# ml.aihelp.net
+# tnc16-useast1a.isnssdk.com
+# akmpicture.youngjoygame.com
+# optimizationguide-pa.googleapis.com
+# app.adjust.net.in
+# media-mct1-1.cdn.whatsapp.net
+# events.gfe.nvidia.com
+# friends.social.ea.com
+# friend-recommendations.k.social.ea.com
+# public.games.geforce.com
+# fcm.googleapis.com
+# assets.msn.com
+# safebrowsing.googleapis.com
+# ext-18-97-200-68.blaze.ea.com
+# river.data.ea.com
+# eafc26.content.easports.com
+# accounts.ea.com
+# accounts.google.com
+# activity.windows.com
+# achievements.gameservices.ea.com
+# a.nel.cloudflare.com
+# api.k.social.ea.com
+# api.steampowered.com
+# app-images.ea.com
+# assetsconfigcdn.org
+# bam.nr-data.net
+# browser-intake-datadoghq.com
+# catalog.gamepass.com
+# chatgpt.com
+# checkout.ea.com
+# client-update.fastly.steamstatic.com
+# cloudsync.juno.ea.com
+# cloudsync-prod.s3.us-east-1.amazonaws.com
+# cmp1-sgp1.steamserver.net
+# cmp2-ams1.steamserver.net
+# cmp2-fra1.steamserver.net
+# community.steamstatic.com
+# confluence.ea.com
+# contentful-proxy.juno.ea.com
+# desktop-config.juno.ea.com
+# discordapp.com
+# eaanticheat.ac.ea.com
+# eaavatarservice.akamaized.net
+# events.statsigapi.net
+# ext1-bom2.steamserver.net
+# ext1-dxb1.steamserver.net
+# ext1-maa2.steamserver.net
+# ext2-bom2.steamserver.net
+# ext2-maa2.steamserver.net
+# freeform-river.data.ea.com
+# friends.gs.ea.com
+# gateway.ea.com
+# gateway.grpc.ea.com
+# gcs.ea.com
+# groups.gameservices.ea.com
+# js.klarna.com
+# mail.google.com
+# mtalk.google.com
+# na.klarnaevt.com
+# outlook.live.com
+# pc.ea.com
+# pin-river.data.ea.com
+# play.google.com
+# ping-edge.smartscreen.microsoft.com
+# prodregistryv2.org
+# realtime.chatgpt.com
+# rtm.tnt-ea.com
+# service-aggregation-layer.juno.ea.com
+# service-aggregation-layer-subs.juno.ea.com
+# shared.fastly.steamstatic.com
+# signaler-pa.clients6.google.com
+# ssl.gstatic.com
+# statsigapi.net
+# steamcommunity.com
+# store.fastly.steamstatic.com
+# store.steampowered.com
+# ts-ocsp.ws.symantec.com
+# update.googleapis.com
+# v10.events.data.microsoft.com
+# waa-pa.clients6.google.com
+# watson.events.data.microsoft.com
+# www.gstatic.com
+
+#### CALL OF Mobile ####
+
+west-tdm.codmwest.com
+crashlyticsreports-pa.googleapis.com
+west-cloudctrl.codm.activision.com
+activision.itopsdk.com
+android.crashsight.wetest.net
+pop-sg.itopsdk.com
+sg.msdkfaas.com
+#firebaseinstallations.googleapis.com
+api.helpshift.com
+cloud.vmp.onezapp.com
+pop-sg.itopsdk.com
+dl.listdl.com
+cdn.itopsdk.com
+pop-sg.itopsdk.com
+#cdn-1302064167.file.myqcloud.com
+
+### Android studio
+android-sdk.is.com
+dl-maven-android.mintegral.com
+jitpack.io
+maven.google.com
+repo1.maven.org/maven
+maven.aliyun.com
+jcenter.bintray.com
+na.fleetlogd.com
+pc.crashsight.wetest.net
+sg-bugreport-1323092436.cos.ap-singapore.myqcloud.com
+mfatca3e8d-75931.gzc.vod.tencent-cloud.com
+fern.xboxservices.com
+sg.jupiterlauncher.com
+sg.tdatamaster.com
+sg.intlgame.com
+pc.perfsight.wetest.net
+down.anticheatexpert.com
+ms.singaporepaya.com
+sg-dr.intlgame.com
+hwconfig.gcloudcs.com
+reportms.singaporepaya.com
+broker-ws-prod-cag-sg.vasdgame.com
+down.gamelet.games
+home.rnps.dl.playstation.net
+control-center.rnps.dl.playstation.net
+millenniumfalcon.rnps.dl.playstation.net
+bgft.rnps.dl.playstation.net
+titlestore-preview.rnps.dl.playstation.net
+agent-popupgui.rnps.dl.playstation.net
+uef.np.dl.playstation.net
+ppr-crl.rnps.dl.playstation.net
+player-selection-dialog.rnps.dl.playstation.net
+invitation-dialog.rnps.dl.playstation.net
+uam-fs.rnps.dl.playstation.net
+settings.rnps.dl.playstation.net
+notification-overlay.rnps.dl.playstation.net
+profile.rnps.dl.playstation.net
+search.rnps.dl.playstation.net
+monte-carlo.rnps.dl.playstation.net
+gaming-lounge.rnps.dl.playstation.net
+capture-menu.rnps.dl.playstation.net
+trophy.rnps.dl.playstation.net
+lfps-bc.rnps.dl.playstation.net
+igc-browse.rnps.dl.playstation.net
+game-hub.rnps.dl.playstation.net
+action-cards-host-app.rnps.dl.playstation.net
+service-hub-psplus.rnps.dl.playstation.net
+psnow-player.rnps.dl.playstation.net
+broadcast.rnps.dl.playstation.net
+profile-dialog.rnps.dl.playstation.net
+elysion.rnps.dl.playstation.net
+ppr-bgs.rnps.dl.playstation.net
+universal-checkout.rnps.dl.playstation.net
+explore-hub.rnps.dl.playstation.net
+x-wing.rnps.dl.playstation.net
+primus.api.playstation.com
+feature.api.playstation.com
+envelope2.np.dl.playstation.net
+fuk01.ps5.update.playstation.net
+alb001-pushcl.np.communication.playstation.net
+image.api.np.km.playstation.net
+telemetry-console.api.playstation.com
+
+xsts.auth.xboxlive.com
+privacy.xboxlive.com
+social.xboxlive.com
+userpresence.xboxlive.com
+login.live.com
+www.msftconnecttest.com
+licensing.mp.microsoft.com
+displaycatalog.mp.microsoft.com
+licensing.mp.microsoft.com
+
+#### Personal ####
+river.data.ea.com
+friends.social.ea.com
+firebaselogging.googleapis.com
